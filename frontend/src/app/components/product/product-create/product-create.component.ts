@@ -7,6 +7,7 @@ import { MatCardModule } from '@angular/material/card';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule} from '@angular/material/input'
+import { MatButton } from '@angular/material/button';
 
 @Component({
   selector: 'app-product-create',
@@ -16,7 +17,7 @@ import { MatInputModule} from '@angular/material/input'
     MatInputModule,
     FormsModule,
     MatFormFieldModule,
-    MatCardModule],
+    MatCardModule,MatButton],
   templateUrl: './product-create.component.html',
   styleUrl: './product-create.component.css'
 })
