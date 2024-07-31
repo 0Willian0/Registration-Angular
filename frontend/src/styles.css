@@ -11,15 +11,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     vertical-align: middle;
 }
 
-.msg-success{
+.msg-success .mdc-snackbar__surface{
     background-color: #28a745 !important;
-    color: #fff;
-    z-index: -1;
+    color: #ffffff !important;
 }
- 
- 
-.msg-error .mdc-snackbar__surface::before {
+.msg-error .mdc-snackbar__surface{
     background-color: #e35e6b !important;
-    color: #fff;
-    z-index: -1;
+    color: #ffffff !important;
 }
+/*.mat-mdc-snack-bar-container .mat-mdc-snackbar-surface*/
